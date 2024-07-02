@@ -3,7 +3,7 @@
 
 > [**OpenOcc: Open Vocabulary 3D Scene Reconstruction via Occupancy Representation**](https://arxiv.org/abs/2403.11796),            
 > Haochen Jiang*, Yueming Xu*, Yihan Zeng, Hang Xu, Wei Zhang, Jianfeng Feng, Li Zhang  
-> **Arxiv preprint**
+> **IROS 2024**
 
 **Official implementation of "OpenOcc: Open Vocabulary 3D Scene Reconstruction via Occupancy Representation".** 
 
@@ -18,10 +18,10 @@
 
 ## 📜 BibTeX
 ```bibtex
-@article{jiang2024openocc,
+@inproceedings{jiang2024openocc,
   title={OpenOcc: Open Vocabulary 3D Scene Reconstruction via Occupancy Representation},
-  author={Haochen Jiang and Yueming Xu and Yihan Zeng and Hang Xu and Wei Zhang and Jianfeng Feng and Li Zhang},
-  journal={2403.11796},
+  author={Jiang, Haochen and Xu, Yueming and Zeng, Yihan and Xu, Hang and Zhang, Wei and Feng, Jianfeng and Zhang, Li},
+  booktitle={IEEE\RSJ International Conference on Intelligent Robots and Systems (IROS)},
   year={2024},
 }
 ```
