@@ -1,0 +1,6 @@
+dataset_type: "scannet"
+datasets_dir: "dataset/scannet/scans"
+far: 8.
+trainskip: 50
+openseg: True
+dino: False

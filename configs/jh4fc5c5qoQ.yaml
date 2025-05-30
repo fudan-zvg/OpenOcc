@@ -1,0 +1,6 @@
+dataset_type: "matterport"
+datasets_dir: "dataset/matterport/scans"
+far: 8.
+trainskip: 1
+openseg: True
+dino: False

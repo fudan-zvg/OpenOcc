@@ -1,0 +1,6 @@
+dataset_type: "replica"
+datasets_dir: "dataset/replica"
+far: 8.
+trainskip: 25
+openseg: True
+dino: True

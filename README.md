@@ -12,9 +12,50 @@
   <img src="assets/pipeline.jpg"/>
 </div><br/>
 
-## 🎥 Videos
-### 🎞️ Demo
+<!-- ## 🎥 Videos -->
+<!-- ## 🎞️ Demo -->
+## 🎥 Demo
 [![Demo Video](https://i3.ytimg.com/vi/lxg5rSyJeac/maxresdefault.jpg)](https://www.youtube.com/embed/lxg5rSyJeac)
+
+## ⚙️ Installation
+Please follow the instructions below to install the repo and dependencies.
+
+```bash
+git clone git@github.com:fudan-zvg/OpenOcc.git
+cd OpenOcc
+```
+### Install the environment
+```bash
+# Create conda environment
+conda create -f environment.ymal
+conda activate openocc
+```
+## 📂 Download Dataset & Data preprocessing
+#### Matterport3D Dataset
+Download Matterport3D dataset into `./data/Matterport3D` folder.
+```
+python data_download/download_mp.py
+```
+
+Generate CLIP features and GT semantic point cloud
+```
+python dataio/matterport_dataset.py
+python script/generate_matterport_eval_data.py
+```
+semantic point cloud will be saved into `script/matterport_3d/label35`
+
+## 🔄 Run
+You can run OpenOcc using the code below:
+```
+python train_matterport.py
+```
+results will be saved in `./logs`
+
+## 🔍 Evaluate
+Evaluate the results and calculate mIoU and mAcc:
+```
+python evaluate_semantic_matterport.py
+```
 
 ## 📜 BibTeX
 ```bibtex
